@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "name": "DevTools Button",
+  "description": "Adds a DevTools button, opens the Developer Toolbox",
+  "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/devtools-button/",
+  "version": "1.4",
+  "experiment_apis": {
+    "devToolsButtonApi": {
+      "schema": "schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "devToolsButtonApi"
+          ]
+        ],
+        "script": "implementation.js"
+      }
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "Developer Toolbox",
+    "default_label": "DevTools",
+    "default_icon": "devToolsButton.svg",
+    "allowed_spaces": []
+  },
+  "applications": {
+    "gecko": {
+      "id": "devToolsButton@dillinger",
+      "strict_min_version": "91.0",
+      "strict_max_version": "124.*"
+    }
+  },
+  "icons": {
+    "32": "devToolsButton.svg",
+    "64": "devToolsButton.svg"
+  }
+}
