@@ -3,7 +3,7 @@
   "name": "DevTools Button",
   "description": "Adds a DevTools button, opens the Developer Toolbox",
   "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/devtools-button/",
-  "version": "1.4",
+  "version": "1.5",
   "experiment_apis": {
     "devToolsButtonApi": {
       "schema": "schema.json",

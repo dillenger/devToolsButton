@@ -1,5 +1,9 @@
 Changelog for DevTools Button
 
+1.5
+Added the button to all toolbars.
+Set maximum version to Thunderbird 127.*.
+
 1.4
 Set minimum version to Thunderbird 91.0.
 Set maximum version to Thunderbird 103.0.
