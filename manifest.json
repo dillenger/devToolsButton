@@ -31,7 +31,7 @@
     "default_icon": "devToolsButton.svg",
     "allowed_spaces": []
   },
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "devToolsButton@dillinger",
       "strict_min_version": "91.0",
