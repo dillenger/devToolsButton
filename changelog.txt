@@ -1,5 +1,10 @@
 Changelog for DevTools Button
 
+1.6
+ESMified the add-on.
+Set minimum version to Thunderbird 128.0.
+Set maximum version to Thunderbird 129.*.
+
 1.5
 Added the button to all toolbars.
 Set maximum version to Thunderbird 127.*.
