@@ -34,8 +34,8 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "devToolsButton@dillinger",
-      "strict_min_version": "128.0",
-      "strict_max_version": "130.*"
+      "strict_min_version": "115.0",
+      "strict_max_version": "131.*"
     }
   },
   "icons": {
